@@ -1,0 +1,46 @@
+<header class="masthead" style="background-image: url('assets/img/home-bg.jpg')">
+    <div class="overlay"></div>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <div class="post-heading">
+            <h1>{{postData.title}}</h1>
+            <h2 class="subheading">{{postData.description}}</h2>
+            <span class="meta">Posted by
+              <a href="#">{{postData.name}}</a>
+              on {{postData.createdOn}}</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+
+<body>
+
+
+
+  <!-- Post Content -->
+  <article>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-8 col-md-10 mx-auto">
+          <p>{{postData.content}}</p>
+          <br>
+          <h2 class="section-heading">{{postData.subtitle}}</h2>
+          <br>
+          <a href="#">
+            <img class="img-fluid" src="{{postData.imageUrl}}" alt="">
+          </a>
+          <br>
+          <br>
+          <p>{{postData.content}}</p>
+          
+        
+        </div>
+      </div>
+    </div>
+  </article>
+
+  <hr>
+
+
